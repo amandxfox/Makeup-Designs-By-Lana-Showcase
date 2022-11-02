@@ -2249,17 +2249,17 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("assets/css/images/pexels-koolshooters-8955868.jpg"), url("/Users/amanda/Files/100Devs/Portfolio/Makeup Studio Project/assets/css/images/pexels-koolshooters-8955868.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background: url("./images/pexels-koolshooters-8955868.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
 
 /* One */
 
 	#one {
-		background: url("assets/css/images/overlay.png"), url("/Users/amanda/Files/100Devs/Portfolio/Makeup Studio Project/assets/css/images/pexels-mart-production-7290733.jpg");
+		background: url("./images/overlay.png"), url("./images/pexels-mart-production-7290733.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2269,7 +2269,7 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("assets/css/images/overlay.png"), url("/Users/amanda/Files/100Devs/Portfolio/Makeup Studio Project/assets/css/images/pexels-cottonbro-6962197.jpg");
+		background: url("./images/overlay.png"), url("./images/pexels-cottonbro-6962197.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
