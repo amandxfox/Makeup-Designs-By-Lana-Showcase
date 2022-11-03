@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
-/*
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -72,7 +67,7 @@ input, select, textarea {
 	appearance: none;
 }
 #header img{
-	height: 50px;
+	height: 65px;
 	width: 200px;
 	margin-left: 1rem
 }
@@ -1826,7 +1821,7 @@ input, select, textarea {
 				.gallery article {
 					width: 100%;
 				}
-
+			
 		}
 
 /* Header */
@@ -1907,7 +1902,10 @@ input, select, textarea {
 				#header nav {
 					display: none;
 				}
-
+				
+				#header img{
+					max-height:45px;
+				}
 		}
 
 	body {
@@ -2249,30 +2247,31 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("./images/pexels-koolshooters-8955868.jpg");
+		background: url("./images/pexels-cottonbro-6962197.jpg");
 		background-size: cover;
 		background-attachment: fixed;
-		background-position: bottom center;
+		background-position:top left;
 		background-repeat: no-repeat;
 	}
 
 /* One */
 
 	#one {
-		background: url("./images/overlay.png"), url("./images/pexels-mart-production-7290733.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background: url("./images/pexels-mart-production-7290733.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom left;
 		background-repeat: no-repeat;
 	}
 
 /* Two */
 
 	#two {
-		background: url("./images/overlay.png"), url("./images/pexels-cottonbro-6962197.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background: url("./images/pexels-mart-production-7290104.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 
 /* Contact */
